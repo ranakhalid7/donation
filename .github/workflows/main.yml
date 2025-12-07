@@ -31,3 +31,9 @@ jobs:
     - name: Run PHP syntax check
       run: |
         find . -name "*.php" -print0 | xargs -0 -n1 php -l
+            - name: Deploy (Simulation)
+      run: |
+        echo "Starting deployment..."
+        echo "Uploading files..."
+        echo "Deployment complete!"
+
